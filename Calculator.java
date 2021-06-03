@@ -66,7 +66,9 @@ public class Calculator {
 				result = Arithmetic.mod(num1Float, num2Float);
 			} else if (operator.equals("rand")) {
 				result = Arithmetic.rand(num1Float, num2Float);
-			} else {
+			} else if (operator.equals("multiplyCubes")) {
+				result = Arithmetic.multiplyCubes(num1Float, num2Float);	
+			}	else {
 				System.out.println("Please provide an operator and two numbers.");
 				continue;
 			}
