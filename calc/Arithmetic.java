@@ -32,6 +32,6 @@ public class Arithmetic {
 	}
 
 	public static float mod(float num1, float num2) {
-		return 10.0f;
+		return num1 % num2;
 	}
 }
