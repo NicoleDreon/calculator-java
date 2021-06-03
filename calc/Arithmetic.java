@@ -6,7 +6,7 @@ public class Arithmetic {
 	}
 
 	public static float subtract(float num1, float num2) {
-		return 10.0f;
+		return num1 - num1;
 	}
 
 	public static float multiply(float num1, float num2) {
