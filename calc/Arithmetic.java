@@ -10,11 +10,11 @@ public class Arithmetic {
 	}
 
 	public static float multiply(float num1, float num2) {
-		return 10.0f;
+		return num1 * num2;
 	}
 
 	public static float divide(float num1, float num2) {
-		return 10.0f;
+		return num1 / num2;
 	}
 
 	public static float square(float num1) {
