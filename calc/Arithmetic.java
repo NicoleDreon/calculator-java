@@ -1,5 +1,7 @@
 package calc;
 
+import java.lang.Math;
+
 public class Arithmetic {
 	public static float add(float num1, float num2) {
 		return num1 + num2;
@@ -18,7 +20,7 @@ public class Arithmetic {
 	}
 
 	public static float square(float num1) {
-		return 10.0f;
+		return (float)Math.pow(num1, 2.0);
 	}
 
 	public static float cube(float num1) {
