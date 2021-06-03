@@ -24,7 +24,7 @@ public class Arithmetic {
 	}
 
 	public static float cube(float num1) {
-		return 10.0f;
+		return (float)Math.pow(num1, 3.0);
 	}
 
 	public static float power(float num1, float num2) {
